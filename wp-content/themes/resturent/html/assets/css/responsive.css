@@ -1,0 +1,416 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .logo::after {
+        width: 190%;
+        height: 140%;
+    }
+    .shape.shape-2 {
+        left: -16%;
+        bottom: 0%;
+    }
+    .row.absolute-shape-area {
+        top: -13%;
+    }
+    .recipy-shape.recipy-shape-2 {
+        bottom: 6%;
+        left: -13%;
+        transform: rotate(-145deg);
+    }
+    .abour-slider-activer .slick-prev.slick-arrow {
+        top: 15%;
+    }
+      .hero-content h1 {
+        font-size: 65px;
+    }
+    
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .mainemnu ul li a {
+        padding: 14px 10px;
+        font-size: 14px;
+    }
+    .logo img {
+        max-width: 100px;
+    }
+    .logo {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .logo::after {
+        width: 215%;
+        height: 140%;
+    }
+
+    .shape.shape-1 {
+        right: -20%;
+    }
+    .row.absolute-shape-area {
+        top: -8%;
+    }
+    .recipy-shape.recipy-shape-2 {
+        bottom: 6%;
+        left: -13%;
+        transform: rotate(-145deg);
+    }
+    .abour-slider-activer .slick-prev.slick-arrow {
+        top: 18%;
+    }
+    .hero-content.pt-250.pb-250 {
+        padding-top: 100px;
+        padding-bottom: 210px;
+    }
+    .shape.shape-2 {
+        left: -16%;
+    }
+    .contact-area .row.absolute-shape-area {
+        top: -6%;
+    }
+    .address-text {
+        width: 95%;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .address-icon {
+        width: 5%;
+    }
+    .about-single-slider {
+        min-height: 870px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+    .mainemnu ul li a {
+        padding: 14px 10px;
+        font-size: 14px;
+    }
+    .logo img {
+        max-width: 100px;
+    }
+    .logo {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .logo::after {
+        width: 170%;
+        height: 140%;
+    }
+    .hero-area .slick-dots li {
+        padding: 0 20px;
+    }
+    .absolute-logo {
+        top: -115px;
+        max-width: 200px;
+    }
+    .recipy-shape.recipy-shape-2 {
+        bottom: 6%;
+        left: -13%;
+        transform: rotate(-145deg);
+    }
+    .recipy-shape.recipy-shape-1 {
+        right: -20%;
+        top: -5%;
+    }
+    .about-single-slider.pt-280 {
+        padding-top: 60px;
+    }
+    .row.absolute-shape-area {
+        top: -6%;
+    }
+    .abour-slider-activer .slick-prev.slick-arrow {
+        top: 4%;
+        right: -30px;
+    }
+    .hero-content.pt-250.pb-250 {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .shape.shape-1 {
+        right: -25%;
+    }
+    .header-area {
+        height: 230px;
+    }
+    .contact-area .row.absolute-shape-area {
+        top: -5%;
+    }
+    .contact-hero-area .shape.shape-2 {
+        bottom: 31%;
+    }
+    .contact-shape.contact-shape-5 {
+        bottom: -17%;
+        left: 19%;
+    }
+    .contact-shape.contact-shape-4 {
+        left: -5%;
+    }
+
+    .contact-shape.contact-shape-3 {
+        left: -2%;
+    }
+    .contact-hero-area .shape.shape-1 {
+        right: 22%;
+    }
+    .contact-title h1 {
+        font-size: 130px;
+    }
+    .fix-slider-height {
+        min-height: 1230px;
+        padding: 200px 0;
+        justify-content: flex-end;
+    }
+    .blue-slider .hero-content img {
+        max-width: 20%;
+    }
+    .fix-slider-height.flex-sm-column-reverse .hero-content {
+        padding-bottom: 50px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	
+
+    .logo::after {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: left;
+    }
+
+    .header-area {
+        background: #3B3B3B;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .header-area:after{
+        display: none;
+    }
+    .logo img {
+        max-width: 70px;
+    }
+
+    .mainemnu {
+        margin-top: 0;
+    }
+    .hero-area .slick-dots {
+        top: 50px;
+    }
+    .hero-title.pt-150 {
+        padding-top: 100px;
+    }
+    .hero-area .slick-dots li {
+        padding: 0 20px;
+    }
+    .shape.shape-1 {
+        right: -65%;
+    }
+    .hero-content.pt-250.pb-250 {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .shape.shape-2 {
+        bottom: 8%;
+        max-width: 50%;
+        left: -23%;
+    }
+    .about-slider-img {
+        position: relative;
+        height: 500px;
+        width: 100%;
+    }
+    .header-area {
+        overflow: visible;
+        height: auto;
+        z-index: 99;
+    }
+    .absolute-logo {
+        top: -125px;
+        max-width: 220px;
+    }
+    a.social-logo {
+        display: block;
+        text-align: center;
+    }
+    .recipy-shape.recipy-shape-1 {
+        right: -60%;
+    }
+    .recipy-shape.recipy-shape-2 {
+        bottom: 4%;
+        left: -25%;
+        transform: rotate(-140deg);
+        max-width: 43%;
+    }
+    .about-single-slider.pt-280.pb-80 {
+        padding: 0;
+    }
+    .about-logo {
+        top: -18%;
+    }
+    .row.absolute-shape-area {
+        top: -5%;
+    }
+    .hero-area .slick-dots {
+        width: 100%;
+        text-align: center;
+    }
+    .abour-slider-activer .slick-prev.slick-arrow {
+        top: 5%;
+        right: -22px;
+    }
+    .abour-slider-activer .slick-next.slick-arrow {
+        top: 5%;
+        bottom: auto;
+        left: 22px;
+        transform: translate(0);
+        font-size: 28px;
+    }
+    .about-text {
+        padding: 30px;
+    }
+    .play-box-activer .slick-arrow {
+        left: 0px;
+        z-index: 1;
+    }
+    .play-box-activer .slick-next.slick-arrow {
+        right: 0;
+        left: auto;
+    }
+    .user-area .slick-prev.slick-arrow {
+        left: 0;
+    }
+    .user-area .slick-next.slick-arrow {
+        right: 0;
+        left: auto;
+    }
+    .about-text h2 {
+        font-size: 45px;
+    }
+    .about-text p {
+        font-size: 25px;
+    }
+    .contact-title h1 {
+        font-size: 60px;
+    }
+    .header-area {
+        position: relative;
+    }
+    .address-text {
+        width: 95%;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .address-icon {
+        width: 5%;
+    }
+    .contact-form {
+        text-align: left;
+    }
+    .contact-hero-area.hero-area {
+        padding-top: 40px;
+    }
+    .contact-shape.contact-shape-4 {
+        bottom: -4%;
+        left: -26%;
+    }
+    .contact-shape.contact-shape-5 {
+        left: 23%;
+        bottom: -6%;
+    }
+    .contact-shape.contact-shape-3 {
+        left: -21%;
+        bottom: -8%;
+    }
+    .contact-area .row.absolute-shape-area {
+        top: -4%;
+    }
+    .contact-area .about-logo {
+        top: -10%;
+    }
+    .contact-hero-area .shape.shape-2 {
+        bottom: 31%;
+    }
+    .contact-hero-area.hero-area .hero-title h4 {
+        margin-bottom: 100px;
+    }
+    .bg-bordered-form {
+        padding: 15px;
+    }
+    .recipy-hero-area.contact-hero-area .shape-1 {
+        bottom: -105%;
+        left: -20%;
+    }
+    .recipy-hero-area .contact-title h1 {
+        font-size: 70px;
+    }
+    .recipy-item-area .about-logo {
+        top: -7%;
+    }
+    .recipy-item-area .social-logo {
+        left: 90px;
+        top: 30%;
+    }
+    .recipy-item-area .social-logo.youtubelogo {
+        right: 80px;
+    }
+    .fix-slider-height {
+        min-height: 1150px;
+        padding: 175px 0;
+        justify-content: flex-end;
+    }
+    .about-logo {
+        top: -18%;
+    }
+    .fix-slider-height.flex-sm-column-reverse .hero-content {
+        padding-bottom: 50px;
+        padding-left: 50px;
+    }
+    .fix-slider-height.flex-sm-column-reverse{
+        flex-direction: column-reverse;
+    }
+    .hero-content h1 {
+        font-size: 60px;
+    }
+    .bordered-btn {
+        margin-left: 0px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    .row.absolute-shape-area {
+        top: -8%;
+    }
+    .contact-area .row.absolute-shape-area {
+        top: -5%;
+    }
+    .contact-shape.contact-shape-5 {
+        bottom: -11%;
+    }
+    .contact-shape.contact-shape-3 {
+        bottom: -14%;
+    }
+    .contact-shape.contact-shape-4 {
+        bottom: -10%;
+    }
+    .recipy-item-area .about-logo {
+        top: -7%;
+    }
+}
